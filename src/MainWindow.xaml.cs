@@ -30,9 +30,9 @@ public partial class MainWindow : Window
 
     private void OnMouseEnter(object sender, MouseEventArgs e) => MainTextBlock.Visibility = Visibility.Visible;
 
-    private void OnMuseLeftButtonDown(object sender, MouseButtonEventArgs e) => DragMove();
+    private void OnMouseLeftButtonDown(object sender, MouseButtonEventArgs e) => DragMove();
 
-    private void OnMuseWheel(object sender, MouseWheelEventArgs e) => MainTextBlock.ScrollToVerticalOffset(MainTextBlock.VerticalOffset - e.Delta);
+    private void OnMouseWheel(object sender, MouseWheelEventArgs e) => MainTextBlock.ScrollToVerticalOffset(MainTextBlock.VerticalOffset - e.Delta);
 
     private void OnSetColorClick(object sender, RoutedEventArgs e)
     {
