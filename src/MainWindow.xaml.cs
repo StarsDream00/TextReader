@@ -6,7 +6,7 @@ using Color = System.Windows.Media.Color;
 using FontFamily = System.Windows.Media.FontFamily;
 using MouseEventArgs = System.Windows.Input.MouseEventArgs;
 
-namespace TextReader;
+namespace InvisibleReading;
 
 /// <summary>
 /// Interaction logic for MainWindow.xaml

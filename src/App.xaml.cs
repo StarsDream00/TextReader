@@ -1,6 +1,6 @@
 ﻿using Application = System.Windows.Application;
 
-namespace TextReader;
+namespace InvisibleReading;
 
 /// <summary>
 /// Interaction logic for App.xaml
